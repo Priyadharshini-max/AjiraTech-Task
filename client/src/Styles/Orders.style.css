@@ -1,0 +1,81 @@
+.OrderDetail {
+  position: relative;
+  display: flex;
+  margin: 50px;
+}
+
+.OrderDetails {
+  background: #ffffff;
+  border: 1px solid #333333;
+  box-sizing: border-box;
+  width: 800px;
+}
+
+.OrderDetail-Right {
+  padding: 0 22px;
+}
+
+.OrderDetail img {
+  border: 10px solid #dddddd;
+}
+
+.orderHeading p {
+  margin: 25px 50px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 35px;
+  color: #777777;
+}
+
+.OrderDetail-Right p:nth-child(1),
+.Payment-Details p:nth-child(1) {
+  color: #777777;
+  padding-bottom: 10px;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.OrderDetail-Right p:nth-child(4),
+.Payment-Details p:nth-child(4) {
+  color: #777777;
+  padding-top: 10px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.OrderDetail-Right p:nth-child(2),
+p:nth-child(3),
+.Payment-Details p:nth-child(2),
+p:nth-child(3) {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 23px;
+  color: #333333;
+}
+
+.Payment-Details {
+  margin-left: 230px;
+}
+
+.Payment-Details p i {
+  padding-left: 100px;
+}
+
+.Payment-Details p:nth-child(2) {
+  padding-left: 55px;
+}
+
+.Payment-Details p:nth-child(4) {
+  background: #333333;
+  border-radius: 6px 6px 0px 0px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  padding: 5px 50px;
+  width: 20px;
+}

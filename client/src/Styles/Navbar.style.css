@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+}
+
+/* .Nav-Content ul li:nth-child(1) {
+  background: #e10000;
+  color: white;
+} */
+
+.Nav-Content ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  width: 1280px;
+  height: 70px;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #444444;
+  padding-top: 20px;
+}
+
+.secondDiv p {
+  position: relative;
+  left: 60px;
+  top: 60px;
+  color: #777777;
+}
+
+.profileDetails {
+  position: relative;
+  left: 60px;
+  top: 120px;
+  display: flex;
+}
+
+.profileName {
+  padding: 20px 0 20px 20px;
+}
+
+.profileName p:nth-child(2) {
+  color: #9b9b9b;
+}
+
+.thirdDiv {
+  display: flex;
+}
+
+.profileDetails .rightArrow {
+  margin: 33px;
+}
+
+.last-rightArrow{
+    margin: 33px 33px 33px 55px;
+}
