@@ -1,0 +1,317 @@
+.madeup-subDiv1 {
+  position: absolute;
+  background-image: url("../Images/img1.png");
+  width: 1280px;
+  height: 600px;
+  left: 0px;
+  top: 70px;
+}
+
+.madeup-subDiv2 {
+  display: flex;
+}
+
+.img2Div {
+  position: absolute;
+  width: 635px;
+  height: 740px;
+  left: 0px;
+  top: 690px;
+  background: url("../Images//img2.png");
+}
+
+.rightImg1 {
+  position: absolute;
+  width: 635px;
+  height: 365px;
+  left: 645px;
+  top: 690px;
+  background: url("../Images//img3.png");
+}
+
+.rightImg2 {
+  position: absolute;
+  width: 635px;
+  height: 365px;
+  left: 645px;
+  top: 1064px;
+  background: url("../Images//img5.png");
+}
+
+.madeup-subDiv3 p {
+  position: absolute;
+  width: 240px;
+  height: 21px;
+  left: 520px;
+  top: 1460px;
+  font-family: BankGothic;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.madeup-subDiv4 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 1520px;
+}
+
+.madeup-subDiv4 div {
+  margin: 0 0 0 30px;
+}
+
+.madeup-subDiv4 div p {
+  text-align: center;
+  padding: 5px 0;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #404040;
+}
+
+.madeup-subDiv4 .price {
+  font-size: 13px;
+  line-height: 19px;
+  color: #e10000;
+}
+
+.item1 {
+  grid-area: header;
+}
+.item2 {
+  grid-area: first;
+  margin-left: 50px;
+}
+.item3 {
+  grid-area: second;
+}
+.item4 {
+  grid-area: third;
+}
+.madeup-subDiv5 {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "first first second second third third";
+  grid-gap: 10px;
+  padding: 10px;
+  position: absolute;
+  width: 1270px;
+  height: 360px;
+  left: 0px;
+  top: 1950px;
+  background: #f9f9f9;
+}
+
+.details {
+  background: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  font-family: Jost;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #707070;
+  padding: 33px;
+  width: 280px;
+}
+
+.userName {
+  font-family: Jost;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #404040;
+}
+
+.sub-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-star {
+  color: #fdc02f;
+  margin: 0 7px 23px 0;
+}
+
+.madeup-subDiv5 .item1 {
+  font-family: BankGothic;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 25px;
+  color: #333333;
+  padding: 26px 570px;
+}
+
+.madeup-subDiv6 {
+  background-image: url("../Images/Vector\ \(6\).png");
+  position: absolute;
+  width: 1349px;
+  height: 250px;
+  left: 0px;
+  top: 2407px;
+  text-align: center;
+  padding: 60px 0 0 0;
+}
+
+.madeup-subDiv6 div:first-child {
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 35px;
+  color: #ffffff;
+}
+
+.madeup-subDiv6 div:nth-child(2) {
+  font-family: Jost;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+::placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #dedede;
+  outline: none;
+}
+
+.madeup-subDiv6 div p {
+  padding: 12px;
+}
+
+.madeup-subDiv6 input[type="text"] {
+  padding: 7px;
+  width: 250px;
+}
+
+.madeup-subDiv6 button {
+  margin: 0 10px;
+  padding: 6px;
+  width: 150px;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #e10000;
+  border: none;
+}
+
+.location {
+  position: absolute;
+  width: 160px;
+  height: 40px;
+  left: 932px;
+  top: 2677px;
+  background: #222222;
+  box-shadow: 6px 0px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 6px 6px 0px 0px;
+}
+
+.location p {
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  color: #dddddd;
+  text-align: center;
+  margin: 7px 0;
+}
+
+.location p span {
+  margin: 10px;
+}
+
+.madeup-subDiv1 button:nth-child(1),
+.madeup-subDiv1 button:nth-child(2),
+.madeup-subDiv2 button {
+  position: absolute;
+  width: 182px;
+  height: 39px;
+  left: 549px;
+  top: 330px;
+  background: #ffffff;
+  opacity: 0.9;
+  border: none;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  color: #333333;
+}
+
+.madeup-subDiv1 button:nth-child(2) {
+  top: 382px;
+}
+
+.madeup-mainDiv span {
+  color: #e10000;
+}
+
+.madeup-subDiv1 button:nth-child(3) {
+  position: absolute;
+  width: 240px;
+  height: 50px;
+  left: 520px;
+  top: 500px;
+  background: #e10000;
+  border: none;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.madeup-subDiv2 .img2Div button:first-child {
+  position: absolute;
+  left: 238px;
+  top: 330px;
+}
+.madeup-subDiv2 .img2Div button:nth-child(2){
+  position: absolute;
+  left: 238px;
+  top: 378px;
+}
+
+.madeup-subDiv2 .img3Div button:first-child {
+  position: absolute;
+  left: 225px;
+  top: 160px;
+}
+.item2 div img{
+  position: absolute;
+  left: 36px;
+  top: 122px;
+}
+
+.item3 div img{
+  position: absolute;
+  left: 459px;
+  top: 122px;
+}
+
+.item4 div img{
+  position: absolute;
+  left: 888px;
+  top: 122px;
+}

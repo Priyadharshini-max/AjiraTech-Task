@@ -1,0 +1,54 @@
+.ProfileDetails {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #333333;
+  box-sizing: border-box;
+  width: 800px;
+  height: 570px;
+  left: 200px;
+  top: 124px;
+}
+.subProfileDetails {
+  margin: 25px 50px;
+}
+.ProfileHeading p {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 35px;
+  color: #333333;
+}
+
+.nameDiv input[type="text"],
+.mailDiv input[type="email"],
+input[type="number"],
+[type="password"] {
+  margin: 15px 0 15px 0px;
+  padding: 13px;
+  width: 280px;
+  background: #ffffff;
+  border: 1px solid gray;
+  box-sizing: border-box;
+}
+
+.lastName {
+  margin: 0 0 0 50px !important;
+}
+
+.mailDiv input[type="email"],
+input[type="number"],
+[type="password"] {
+  width: 610px;
+}
+
+input[type="button"] {
+  margin: 15px 0 0 370px;
+  width: 240px;
+  height: 50px;
+  background: #333333;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ffffff;
+}

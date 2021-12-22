@@ -9,19 +9,19 @@ export default function Orders() {
             </div>
             <div className="OrderDetail">
                 <div>
-                    <img src={Image} />
+                    <img src={Image} />                  
                 </div>
                 <div className="OrderDetail-Right">
                     <p>Order#12345678</p>
                     <p>Madeup White Cotton Blend</p>
                     <p>Checkered Slim Fit Shirt</p>
-                    <p>Express Delivery by Sat, Aug 30</p>
+                    <p>Express Delivery by Sat, Aug 30</p>                   
                 </div>
                 <div className="Payment-Details">
                     <p>Credit Card Payment</p>
                     <p>Rs 1,899</p>
-                    <p><i class="fas fa-chevron-down"></i></p>
-                    <p>Pending</p>
+                    <p><i className="fas fa-chevron-down"></i></p>
+                    <p className="pending">Pending</p>                   
                 </div>
             </div>
 
@@ -35,11 +35,12 @@ export default function Orders() {
                     <p>Checkered Slim Fit Shirt</p>
                     <p>Express Delivery by Sat, Aug 30</p>
                 </div>
+                
                 <div className="Payment-Details">
                     <p>Credit Card Payment</p>
                     <p>Rs 1,899</p>
-                    <p><i class="fas fa-chevron-down"></i></p>
-                    <p>Pending</p>
+                    <p><i className="fas fa-chevron-down"></i></p>
+                    <p className="pending">Pending</p>
                 </div>
             </div>
             <div className="OrderDetail">
@@ -55,8 +56,8 @@ export default function Orders() {
                 <div className="Payment-Details">
                     <p>Credit Card Payment</p>
                     <p>Rs 1,899</p>
-                    <p><i class="fas fa-chevron-down"></i></p>
-                    <p>Delivered</p>
+                    <p><i className="fas fa-chevron-down"></i></p>
+                    <p className="delivered">Delivered</p>
                 </div>
             </div>
             <div className="OrderDetail">
@@ -72,8 +73,8 @@ export default function Orders() {
                 <div className="Payment-Details">
                     <p>Credit Card Payment</p>
                     <p className="amount">Rs 1,899</p>
-                    <p><i class="fas fa-chevron-down"></i></p>
-                    <p>Delivered</p>
+                    <p><i className="fas fa-chevron-down"></i></p>
+                    <p className="delivered">Delivered</p>
                 </div>
             </div>
         </div>
